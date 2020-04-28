@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link href="/home.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <nav id="navbar" class="">
+            <div class="nav-wrapper">
+              <!-- Navbar Logo -->
+              <div class="logo">
+                <!-- Logo Placeholder for Inlustration -->
+                <a href="/home"><img src="/images/logo3.png"> Gupshup</a>
+              </div>
+          
+              <!-- Navbar Links -->
+              <ul id="menu">
+                <li><a class="signin" href="#0">Sign In</a></li><!--
+             --><li><a class="signup" href="#0">Sign Up</a></li>
+              </ul>
+            </div>
+        </nav>
+        <div class="description">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ac adipiscing feugiat felis blandit ut orci. Ipsum, tristique adipiscing lorem fermentum viverra. In tortor ut egestas pharetra leo malesuada. Eget egestas habitant aliquam volutpat in nibh eget neque urna.</p>
+            <button type="button" class="btn btn-success"><a href="/home.html">Get Started</a></button>
+        </div>
+          
+          
+          <!-- Menu Icon -->
+          <div class="menuIcon">
+            <span class="icon icon-bars"></span>
+            <span class="icon icon-bars overlay"></span>
+          </div>
+          
+          
+          <div class="overlay-menu">
+            <ul id="menu">
+                <li><a href="#0">Sign In</a></li>
+                <li><a href="#0">Sign Up</a></li>
+              </ul>
+          </div>
+        <!-- <div class="logo">
+            <img src="/images/logo2.png">
+        </div> -->
+        <div class="homeimg">
+            <img src="/images/devices.png">
+        </div>
+    </div>
+    <!--signin/signup --->
+    <div class="user-modal">
+		<div class="user-modal-container">
+			<ul class="switcher">
+				<li><a href="#0">Sign in</a></li>
+				<li><a href="#0">New account</a></li>
+			</ul>
+
+			<div id="login">
+				<form class="form">
+					<p class="fieldset">
+						<label class="image-replace email" for="signin-email">E-mail</label>
+						<input class="full-width has-padding has-border" id="signin-email" type="email" placeholder="E-mail">
+						<span class="error-message">An account with this email address does not exist!</span>
+					</p>
+
+					<p class="fieldset">
+						<label class="image-replace password" for="signin-password">Password</label>
+						<input class="full-width has-padding has-border" id="signin-password" type="password"  placeholder="Password">
+						<a href="#0" class="hide-password">Show</a>
+						<span class="error-message">Wrong password! Try again.</span>
+					</p>
+
+					<p class="fieldset">
+						<input type="checkbox" id="remember-me" checked>
+						<label for="remember-me">Remember me</label>
+					</p>
+
+					<p class="fieldset">
+						<input class="full-width" type="submit" value="Login">
+					</p>
+				</form>
+				
+				<p class="form-bottom-message"><a href="#0">Forgot your password?</a></p>
+				<!-- <a href="#0" class="close-form">Close</a> -->
+			</div>
+
+			<div id="signup">
+				<form class="form">
+					<p class="fieldset">
+						<label class="image-replace username" for="signup-username">Username</label>
+						<input class="full-width has-padding has-border" id="signup-username" type="text" placeholder="Username">
+						<span class="error-message">Your username can only contain numeric and alphabetic symbols!</span>
+					</p>
+
+					<p class="fieldset">
+						<label class="image-replace email" for="signup-email">E-mail</label>
+						<input class="full-width has-padding has-border" id="signup-email" type="email" placeholder="E-mail">
+						<span class="error-message">Enter a valid email address!</span>
+					</p>
+
+					<p class="fieldset">
+						<label class="image-replace password" for="signup-password">Password</label>
+						<input class="full-width has-padding has-border" id="signup-password" type="password"  placeholder="Password">
+						<a href="#0" class="hide-password">Show</a>
+						<span class="error-message">Your password has to be at least 6 characters long!</span>
+					</p>
+
+					<p class="fieldset">
+						<input type="checkbox" id="accept-terms">
+						<label for="accept-terms">I agree to the <a class="accept-terms" href="#0">Terms</a></label>
+					</p>
+
+					<p class="fieldset">
+						<input class="full-width has-padding" type="submit" value="Create account">
+					</p>
+				</form>
+
+				<!-- <a href="#0" class="cd-close-form">Close</a> -->
+			</div>
+
+			<div id="reset-password">
+				<p class="form-message">Lost your password? Please enter your email address.</br> You will receive a link to create a new password.</p>
+
+				<form class="form">
+					<p class="fieldset">
+						<label class="image-replace email" for="reset-email">E-mail</label>
+						<input class="full-width has-padding has-border" id="reset-email" type="email" placeholder="E-mail">
+						<span class="error-message">An account with this email does not exist!</span>
+					</p>
+
+					<p class="fieldset">
+						<input class="full-width has-padding" type="submit" value="Reset password">
+					</p>
+				</form>
+
+				<p class="form-bottom-message"><a href="#0">Back to log-in</a></p>
+			</div>
+			<a href="#0" class="close-form">Close</a>
+		</div>
+	</div>
+    <script src="/index.js"></script>
+</body>
+</html>

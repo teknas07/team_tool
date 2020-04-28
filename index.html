@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="/styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+  <body>
+
+    <div class="animated slideInLeft" id="square">
+      <div class="animated bounceInUp" id="leftSquare">
+        <div id="row">
+          <div class="col-lg-8">
+            <h1 class="title">Gupshup</h1>
+          </div>
+          <i class="down fa fa-chevron-down" aria-hidden="true"></i>
+  
+          <i class="bell fa fa-bell-o fa-lg" aria-hidden="true"></i>
+        </div>
+        <div id="row">
+          <div id="circle"></div>
+          <h2 id="subtitle">mmang</h2>
+        </div>
+        <div id="row">
+          <h2 id="channels">CHANNELS<span id="light">(29)</span> <i class="add fa fa-plus-circle fa-inverse" aria-hidden="true"></i> </h2>
+        </div>
+        <div id="highlight-channel"></div>
+        <div id="row">
+          <h2 id="channel"># pens</h2>
+        </div>
+        <div id="row">
+          <h2 id="channel2"><span id="opacity"># </span> <span id="bold">posts</span></h2>
+        </div>
+        <div id="row">
+          <h2 id="channel3"># shop</h2>
+        </div>
+        <div id="row">
+          <span id="highlight">
+            <h2 id="channel4"># codevember</h2>
+          </span>
+        </div>
+  
+        <div id="row">
+          <h2 id="messages">DIRECT MESSAGES<span id="light">(12)</span> <i class="add-two fa fa-plus-circle fa-inverse"></i> </h2>
+        </div>
+        <div id="row">
+          <div id="circle2"></div>
+          <h2 id="subtitle2">Jsmith</h2>
+        </div>
+        <div id="row">
+          <div id="circle3"></div>
+          <h2 id="subtitle3">mmang(you)</h2>
+        </div>
+  
+      </div>
+  
+      <div class="animated bounceInDown" id="header">
+  
+        <h2 id="channel-title">
+          #pens
+        </h2>
+        <div id="icons">
+  
+          <i class="star fa fa-star-o" aria-hidden="true"></i>
+          <h3 id="line"> | </h3>
+          <i class="user fa fa-user-o" aria-hidden="true"></i>
+          <h3 id="line2"> | </h3>
+          <i class="pin fa fa-thumb-tack" aria-hidden="true"></i>
+        </div>
+        <div id="rightIcons">
+          <i class="phone fa fa-phone fa-lg" aria-hidden="true"></i>
+          <label for="chkSettings"><i class="cog fa fa-cog fa-lg" aria-hidden="true"></i></label>
+          <input type="checkbox" id="chkSettings" />
+          <div class="settings-popup">
+            <ul>
+              <li><a href="#">Group members</a></li>
+              <li><a href="#">Add members</a></li>
+              <li><a href="#">Delete members</a></li>
+              <li><a href="#">Leave group</a></li>
+            </ul>
+          </div>
+         
+           <a href="#popup1"><i class=" details fa-list-alt fa-lg" aria-hidden="true"></i></a> 
+            <div id="popup1" class="overlay">
+              <div class="popup">
+                <h2>Here i am</h2>
+                <a class="close" href="#">&times;</a>
+                <div class="content">
+                  Thank to pop me out of that button, but now i'm done so you can close this window.
+                </div>
+              </div>
+            </div>
+          
+          <h3 id="line3"> | </h3>
+          <i class="search-glass fa fa-search" aria-hidden="true"></i>
+          <input class="search" placeholder="Search" type="text">
+          </input>
+  
+          <i class="at fa fa-at fa-lg" aria-hidden="true"></i>
+  
+          <i class="star-o fa fa-star-o fa-lg" aria-hidden="true"></i>
+          <i class="menu fa fa-ellipsis-v fa-lg" aria-hidden="true"></i>
+  
+        </div>
+  
+        <hr class="bottom-header-line" />
+      </div>
+  
+      <div id="message-area">
+        <div id="message-one">
+          <div id="container">
+            <div class="row">
+              <div class="col-xs-6 col-md-3">
+                <a href="#" class="person-one thumbnail">
+                  <img class="person-img-one" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/827672/pexels-photo-119705%20(1).jpeg">
+                </a>
+              </div>
+            </div>
+          </div>
+          <div id="container">
+            <h4 id="person-name"> Jsmith <span id="time">9:02 AM</span> </h4>
+            <p id="person-text">
+  
+              Morning everyone!
+  
+            </p>
+          </div>
+        </div>
+  
+      </div>
+      <div id="message-area-two">
+        <div id="message-two">
+          <div id="container">
+            <div class="row">
+              <div class="col-xs-6 col-md-3">
+                <a href="#" class="person-two thumbnail">
+                  <img class="person-img-two" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/827672/Screen%20Shot%202016-11-21%20at%209.39.49%20AM.png">
+                </a>
+              </div>
+            </div>
+          </div>
+          <div id="container">
+            <h4 id="person-name-two"> KyleD<span id="time">9:02 AM</span> </h4>
+            <h5 id="person-text-two">
+  
+              Yooooo
+  
+            </h5>
+          </div>
+        </div>
+      </div>
+      <div id="message-area-three">
+        <div id="message-three">
+          <div id="container">
+            <div class="row">
+              <div class="col-xs-6 col-md-3">
+                <a href="#" class="person-three thumbnail">
+                  <img class="person-img-three" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/827672/Screen%20Shot%202016-11-21%20at%209.58.01%20AM.png">
+                </a>
+              </div>
+            </div>
+          </div>
+          <div id="container">
+            <h4 id="person-name-three"> sam_I_am<span id="time">9:02 AM</span> </h4>
+            <h5 id="person-text-three">
+  
+              Dude, I found this awesome pen
+  
+            </h5>
+          </div>
+        </div>
+      </div>
+      <div id="message-area-four">
+        <div id="message-four">
+          <div id="container">
+            <div class="row">
+              <div class="col-xs-6 col-md-3">
+                <a href="#" class="person-four thumbnail">
+                  <img class="person-img-four" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/827672/Screen%20Shot%202016-11-21%20at%209.58.01%20AM.png">
+                </a>
+              </div>
+            </div>
+          </div>
+          <div id="container">
+            <h4 id="person-name-four"> sam_I_am<span id="time">9:02 AM</span> </h4>
+            <h5 id="person-text-four">
+  
+              One sec, going to find the link
+  
+            </h5>
+          </div>
+        </div>
+      </div>
+      <div id="message-area-five">
+        <div id="message-four">
+          <div id="container">
+            <div class="row">
+              <div class="col-xs-6 col-md-3">
+                <a href="#" class="person-four thumbnail">
+                  <img class="person-img-four" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/827672/Screen%20Shot%202016-11-21%20at%209.58.01%20AM.png">
+                </a>
+              </div>
+            </div>
+          </div>
+          <div id="container">
+            <h4 id="person-name-four"> sam_I_am<span id="time">9:02 AM</span> </h4>
+            <h5 id="person-text-four">
+  
+              Got it! <a href="#"> Slack Chat CSS </a>
+  
+            </h5>
+          </div>
+        </div>
+      </div>
+      <div id="message-area-six">
+        <div id="message-one">
+          <div id="container">
+            <div class="row">
+              <div class="col-xs-6 col-md-3">
+                <a href="#" class="person-one thumbnail">
+                  <img class="person-img-one" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/827672/pexels-photo-119705%20(1).jpeg">
+                </a>
+              </div>
+            </div>
+          </div>
+          <div id="container">
+            <h4 id="person-name"> Jsmith <span id="time">9:02 AM</span> </h4>
+            <h5 id="person-text">
+  
+              Sick! I'm so hearting that and posting on Twitter
+  
+            </h5>
+          </div>
+        </div>
+  
+      </div>
+      <div id="bottom">
+        <input class="search-bottom" placeholder="Message #pens" type="text">
+        </input>
+        <i class="smile fa fa-smile-o" aria-hidden="true"></i>
+        <h3 id="line-bottom"> | </h3>
+        <i class="plus fa fa-plus" aria-hidden="true"></i>
+      </div>
+  
+    </div>
+    <script src="/index.js"></script>
+  </body>
+</html>
