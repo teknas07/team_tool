@@ -33,7 +33,7 @@ body{
   border-radius: 20px;
 }
   
-  @media(max-width: 640px){
+  @media(max-width: 540px){
     .description p{
       height: 250px;
       width: 280px;
@@ -69,7 +69,6 @@ li.nav-item{
       
   }
   .homeimg img{
-    float:0;
     left: 50px;
     top:100%;
   }
