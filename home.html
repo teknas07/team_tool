@@ -5,54 +5,66 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <link href="/home.css" rel="stylesheet">
 </head>
 <body>
-    <div class="container">
-        <nav id="navbar" class="">
+		<nav class="navbar navbar-expand-md navbar-light" style="background-color:  #e3f2fd;" >
+			<div class="container">
+			<a class="navbar-brand" href="#">
+			  <img src="/images/logo3.png" width="30" height="30" class="d-inline-block align-top" alt="">
+			  <span class="head">Gupshup</span>
+			</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav ml-auto" id="menu">
+					<li class="nav-item" style="margin-right: 40px;">
+						<a class="nav-link signin" href="#0"><span class="s1">Sign In</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link signup" href="#0"><span class="s2">Sign Up</span></a>
+					</li>
+				</ul>
+			</div>
+
+			</div>
+		  </nav>
+        	<!-- <nav id="navbar" class="">
             <div class="nav-wrapper">
-              <!-- Navbar Logo -->
+               Navbar Logo 
               <div class="logo">
-                <!-- Logo Placeholder for Inlustration -->
-                <a href="/home"><img src="logo3.png"> Gupshup</a>
+              
+                <a href="/home"><img src="/images/logo3.png"> Gupshup</a>
               </div>
           
-              <!-- Navbar Links -->
+              
               <ul id="menu">
-                <li><a class="signin" href="#0">Sign In</a></li><!--
-             --><li><a class="signup" href="#0">Sign Up</a></li>
+                <li><a class="signin" href="#0">Sign In</a></li>
+             <li><a class="signup" href="#0">Sign Up</a></li>
               </ul>
             </div>
-        </nav>
-        <div class="description">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ac adipiscing feugiat felis blandit ut orci. Ipsum, tristique adipiscing lorem fermentum viverra. In tortor ut egestas pharetra leo malesuada. Eget egestas habitant aliquam volutpat in nibh eget neque urna.</p>
-            <button type="button" class="btn btn-success"><a href="/home.html">Get Started</a></button>
-        </div>
-          
-          
-          <!-- Menu Icon -->
-          <div class="menuIcon">
-            <span class="icon icon-bars"></span>
-            <span class="icon icon-bars overlay"></span>
-          </div>
-          
-          
-          <div class="overlay-menu">
-            <ul id="menu">
-                <li><a href="#0">Sign In</a></li>
-                <li><a href="#0">Sign Up</a></li>
-              </ul>
-          </div>
+		</nav> -->
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-sm-6" id="description">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ac adipiscing feugiat felis blandit ut orci. Ipsum, tristique adipiscing lorem fermentum viverra. In tortor ut egestas pharetra leo malesuada. Eget egestas habitant aliquam volutpat in nibh eget neque urna.</p>
+					<button type="button" class="btn btn-success"><a href="/home.html">Get Started</a></button>
+				</div>
+				<div class="col-sm-6">
+					<div class="homeimg">
+						<img src="/images/devices.png">
+					</div>
+				</div>
+			</div>
+			
+		</div>
         <!-- <div class="logo">
             <img src="/images/logo2.png">
         </div> -->
-        <div class="homeimg">
-            <img src="devices.png">
-        </div>
-    </div>
     <!--signin/signup --->
     <div class="user-modal">
 		<div class="user-modal-container">

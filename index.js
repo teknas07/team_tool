@@ -1,49 +1,3 @@
-$(function() {
-    var $overlay = $('.overlay'),
-        $overlayTrigger = $('.overlay-trigger i'),
-        $overlayClose = $('.overlay-close'),
-        openClass = 'is-open';
-  
-    $overlayTrigger.on('click', function() {
-      var num = ('0' + ($(this).index() + 1)).slice(-2);
-      $('.overlay' + num).addClass(openClass);
-      $overlayClose.addClass(openClass);
-    });
-  
-    $overlayClose.on('click', function() {
-      $overlayClose.removeClass(openClass);
-      $overlay.removeClass(openClass);
-    });
-});
-
-
-let menuIcon = document.querySelector('.menuIcon');
-let nav = document.querySelector('.overlay-menu');
-
-menuIcon.addEventListener('click', () => {
-    if (nav.style.transform != 'translateX(0%)') {
-        nav.style.transform = 'translateX(0%)';
-        nav.style.transition = 'transform 0.2s ease-out';
-    } else { 
-        nav.style.transform = 'translateX(-100%)';
-        nav.style.transition = 'transform 0.2s ease-out';
-    }
-});
-
-
-// Toggle Menu Icon 
-let toggleIcon = document.querySelector('.menuIcon');
-
-toggleIcon.addEventListener('click', () => {
-    if (toggleIcon.className != 'menuIcon toggle') {
-        toggleIcon.className += ' toggle';
-    } else {
-        toggleIcon.className = 'menuIcon';
-    }
-});
-
-
-
 //Sign In and Sign Up
 jQuery(document).ready(function($){
   var $form_modal = $('.user-modal'),
@@ -138,15 +92,15 @@ jQuery(document).ready(function($){
     $form_forgot_password.addClass('is-selected');
   }
 
-  //REMOVE THIS - it's just to show error messages 
-  $form_login.find('input[type="submit"]').on('click', function(event){
-    event.preventDefault();
-    $form_login.find('input[type="email"]').toggleClass('has-error').next('span').toggleClass('is-visible');
-  });
-  $form_signup.find('input[type="submit"]').on('click', function(event){
-    event.preventDefault();
-    $form_signup.find('input[type="email"]').toggleClass('has-error').next('span').toggleClass('is-visible');
-  });
+  // //REMOVE THIS - it's just to show error messages 
+  // $form_login.find('input[type="submit"]').on('click', function(event){
+  //   event.preventDefault();
+  //   $form_login.find('input[type="email"]').toggleClass('has-error').next('span').toggleClass('is-visible');
+  // });
+  // $form_signup.find('input[type="submit"]').on('click', function(event){
+  //   event.preventDefault();
+  //   $form_signup.find('input[type="email"]').toggleClass('has-error').next('span').toggleClass('is-visible');
+  // });
 
   if(!Modernizr.input.placeholder){
     $('[placeholder]').focus(function() {
