@@ -33,13 +33,12 @@ body{
   border-radius: 20px;
 }
   
-  @media(max-width: 540px){
-    .description p{
+  @media(max-width: 640px){
+    #discription p{
       height: 250px;
       width: 280px;
-      margin-top: 200px;
-      margin-left: 20px;
-      font-size: 20px;
+      margin-left: 0px;
+      font-size: 15px;
       color: white;
       letter-spacing: 3px;
   }
@@ -53,24 +52,25 @@ li.nav-item{
   width: 79px;
 }
 
-  .description{
-    width: 200px;
-    margin-left: 30px;
-  }
 
-  .description button{
+  #description button{
     text-align: center;
-    margin-left: 10px;
+    margin-left: 100px;
   }
 
- .description button a{
+ #description button a{
       text-decoration: none;
       color: white;
       
   }
   .homeimg img{
-    left: 50px;
+    width:250px;
+    height: 200px;
     top:100%;
+    margin-left: 10px;
+  }
+  #description p{
+    margin-left: 0px;
   }
   }
   
